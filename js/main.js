@@ -176,7 +176,7 @@ const showDatas = () => {
   students_projects.forEach(
     ({ name, image, classname, rate, url }) =>
       (output += `
-              <div class="card">
+              <div class="card" data-aos="zoom-in" data-aos-delay="500">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
                 <p><span>${classname} |</span><span> ${rate}</span></p>
